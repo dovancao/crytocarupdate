@@ -31,8 +31,6 @@ contract CarBase {
 
     Car[] public cars;
 
-
-    cars.push
     event NewCar(uint carId, string carManufacturer, string modelOfCar, uint yearOfProduction);
 
     mapping (address => uint) carOwnerCount;   // số car của mỗi owner
